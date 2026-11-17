@@ -16,38 +16,8 @@
 
 ---
 
-## How to run on a Mac
 
-1. **Unzip** the folder (double-click `lab4_sonam_choki.zip` in Finder).
-2. **Open Terminal** (press `Cmd + Space`, type `Terminal`, press Enter).
-3. **Check Python 3 is installed:**
-   ```bash
-   python3 --version
-   ```
-   If you see `Python 3.x.x` you're ready. If a popup asks to install
-   "Command Line Developer Tools", click **Install** and wait, or download Python from python.org.
-4. **Go into the folder** (type `cd ` with a space, drag the unzipped folder into the Terminal window, press Enter):
-   ```bash
-   cd ~/Downloads/lab4_sonam_choki
-   ```
-5. **Run Part A** (finishes in under a second):
-   ```bash
-   python3 part_a_modular_exponentiation.py
-   ```
-6. **Run Part B** (takes about 20–30 seconds because the naive benchmark is slow, which is the point):
-   ```bash
-   python3 part_b_matrix_exponentiation.py
-   ```
-
-No extra libraries are needed. Everything uses the Python standard library.
-
-> Tip: if Part B takes too long on your laptop, open `part_b_matrix_exponentiation.py`,
-> change `NAIVE_WORK_LIMIT = 200_000_000` to `20_000_000`, and run it again.
-> The slowest naive cases will then show `skipped*`.
-
----
-
-## Summary (in simple terms)
+## Summary 
 
 ### The big idea
 Calculating something like 7^1,000,000 the obvious way means doing **a million multiplications**.
@@ -96,7 +66,7 @@ solvable instantly. The same idea is used in RSA cryptography, in fast Fibonacci
 
 ---
 
-## Output (run on my MacBook Air M5)
+## Output 
 
 ### Part A: Modular exponentiation (Tasks 3, 5 and 6)
 
@@ -126,6 +96,3 @@ solvable instantly. The same idea is used in RSA cryptography, in fast Fibonacci
 **What it shows:**
 - **Task 8:** the matrix method and the brute-force method give the same number of walks every time. It also counts the walks from 0 to 3 with 10^6 edges: **448188039** (mod 10^9+7).
 - **Task 9:** naive time roughly doubles every time n doubles. Binary time hardly changes. At d = 32 and n = 4096, naive took **4.70 s** and binary took **0.016 s**, about **291× faster**.
-
-> Note: a few speed-up values jump around a little (for example 112× then 59× at d = 8).
-> This is normal timing noise from the computer doing other work in the background. The overall trend is still clear.
