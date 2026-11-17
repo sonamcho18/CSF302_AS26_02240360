@@ -16,9 +16,6 @@
 
 ---
 
-
-## Summary 
-
 ### The big idea
 Calculating something like 7^1,000,000 the obvious way means doing **a million multiplications**.
 The clever way (**binary exponentiation**, or "square-and-multiply") uses the fact that

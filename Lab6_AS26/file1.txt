@@ -1,0 +1,7 @@
+Dynamic programming notes
+Break the problem into subproblems
+Solve each subproblem once
+Store the answers in a table
+Use recursion with memoization
+Combine answers to solve the whole problem
+Examples: rod cutting and LCS

@@ -1,0 +1,7 @@
+Dynamic programming notes
+Break the problem into overlapping subproblems
+Solve each subproblem once
+Store the answers in a table
+Combine answers to solve the whole problem
+Examples: rod cutting, matrix chain and LCS
+Written by Sonam Choki (02240360)
