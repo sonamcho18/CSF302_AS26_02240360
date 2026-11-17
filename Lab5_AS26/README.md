@@ -20,44 +20,7 @@ Running `q2_counting_radix.py` also creates `plot_vary_k.png` and `plot_vary_n.p
 
 ---
 
-## How to run on a Mac
-
-1. **Unzip** `lab5_sonam_choki.zip` (double-click it in Finder).
-2. **Open Terminal** (press `Cmd + Space`, type `Terminal`, press Enter).
-3. **Go into the folder.** Type `cd ` with a space after it, drag the unzipped folder into the Terminal window, and press Enter. For example:
-   ```bash
-   cd ~/Downloads/lab5_sonam_choki
-   ```
-4. **Install matplotlib** (only needed once, for the Q2 plots):
-   ```bash
-   python3 -m pip install --user matplotlib
-   ```
-   If you get an "externally-managed-environment" error, use this instead:
-   ```bash
-   python3 -m pip install --user --break-system-packages matplotlib
-   ```
-   If matplotlib won't install, Q2 still runs. It just skips the plots.
-5. **Run each question:**
-   ```bash
-   python3 q1_quicksort_variants.py     # about 30–40 seconds
-   python3 q2_counting_radix.py         # about 15 seconds, saves 2 plots
-   python3 q3_inversions.py             # about 40–60 seconds (brute force is slow on purpose)
-   python3 q3_kendall_tau.py            # asks you to type two rankings
-   ```
-6. **To open the plots:**
-   ```bash
-   open plot_vary_k.png plot_vary_n.png
-   ```
-
-**Typing the Kendall tau input:** each user types the 10 movie numbers from favourite to least favourite, separated by spaces. Press Enter on an empty line to use the built-in example. For example:
-```
-User 1: 5 1 4 8 2 3 7 6 9 10
-User 2: 1 5 4 2 8 3 6 7 10 9
-```
-
----
-
-## Summary (in simple terms)
+## Summary 
 
 ### Q1: Quicksort variants
 Quicksort picks a **pivot**, puts smaller items on its left and bigger items on its right, and then sorts each side the same way.
@@ -103,7 +66,7 @@ An **inversion** is a pair of items that are in the wrong order (a[i] > a[j] wit
 
 ---
 
-## Output (run on my MacBook Air M5)
+## Output
 
 ### Q1: Quicksort variants
 
