@@ -1,0 +1,10 @@
+Bhutan is a small kingdom in the Eastern Himalayas. It is known for its
+mountains, its forests and its monasteries. The country measures its progress
+with Gross National Happiness instead of only looking at money. More than
+half of the land is covered by forest, and the constitution says that at
+least sixty percent must always stay forested. Thimphu is the capital city,
+and Paro has the only international airport. Many students study computer
+science at the College of Science and Technology, where they learn about
+algorithms such as sorting, searching, dynamic programming and greedy
+methods. Huffman coding is a greedy method: it always joins the two least
+frequent symbols first, and this simple rule builds the best prefix code.

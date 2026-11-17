@@ -1,0 +1,14 @@
+# Weighted directed graph: from to weight
+# First line after comments: source vertex
+SOURCE A
+A B 4
+A C 2
+B C 5
+B D 10
+C E 3
+E D 4
+D F 11
+E F 15
+C B 1
+F G 2
+D G 7
